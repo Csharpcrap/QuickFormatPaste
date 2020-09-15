@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickFormatPaste", "QuickFormatPaste\QuickFormatPaste.csproj", "{355C079B-7B89-44C5-A5F0-2317350E8FC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickFormatPaste", "QuickFormatPaste\QuickFormatPaste.csproj", "{3D30F049-6774-4B01-A25E-FA9709FA027A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{355C079B-7B89-44C5-A5F0-2317350E8FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{355C079B-7B89-44C5-A5F0-2317350E8FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{355C079B-7B89-44C5-A5F0-2317350E8FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{355C079B-7B89-44C5-A5F0-2317350E8FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D30F049-6774-4B01-A25E-FA9709FA027A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D30F049-6774-4B01-A25E-FA9709FA027A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D30F049-6774-4B01-A25E-FA9709FA027A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D30F049-6774-4B01-A25E-FA9709FA027A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4724AF4B-CFE7-499D-88E4-8EAB42DD6859}
+		SolutionGuid = {8D9C14A0-0135-44C4-A981-3E3E8EDC29E5}
 	EndGlobalSection
 EndGlobal

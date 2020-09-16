@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "QuickFormatPaste/1.0.0": {
+        "dependencies": {
+          "NHotkey.Wpf": "2.1.0"
+        },
+        "runtime": {
+          "QuickFormatPaste.dll": {}
+        }
+      },
       "NHotkey/2.1.0": {
         "runtime": {
           "lib/netcoreapp3.0/NHotkey.dll": {
@@ -28,6 +36,11 @@
     }
   },
   "libraries": {
+    "QuickFormatPaste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "NHotkey/2.1.0": {
       "type": "package",
       "serviceable": true,

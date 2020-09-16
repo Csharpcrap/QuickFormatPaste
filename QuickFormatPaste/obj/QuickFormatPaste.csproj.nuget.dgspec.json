@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\indiv\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj": {}
+    "C:\\Users\\Denis\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\indiv\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj": {
+    "C:\\Users\\Denis\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\indiv\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj",
+        "projectUniqueName": "C:\\Users\\Denis\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj",
         "projectName": "QuickFormatPaste",
-        "projectPath": "C:\\Users\\indiv\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj",
-        "packagesPath": "C:\\Users\\indiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\indiv\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\obj\\",
+        "projectPath": "C:\\Users\\Denis\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj",
+        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Denis\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\indiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "NHotkey.Wpf": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,28 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NHotkey;
+using NHotkey.Wpf;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace QuickFormatPaste
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            HotkeyManager.Current.AddOrReplace("Open", Key.C, ModifierKeys.Alt, OnHotOpen);
+            HotkeyManager.Current.AddOrReplace("Close", Key.X, ModifierKeys.Alt, OnHotClose);
+            Hide();
+        }
+        
+        private void OnHotOpen(object sender, HotkeyEventArgs e)
+        {
+            Show();
+        }
+
+        private void OnHotClose(object sender, HotkeyEventArgs e)
+        {
+            Hide();
+        }
+
+        private void OnClose(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            e.Cancel = true;
+            Hide();
         }
     }
 }

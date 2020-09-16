@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lXxvHoKmva2GpVapJS03D7MWR/BiUGK+1dpdcvXjvUVzgY2+GOZSzPiBEJYXu45CoMXoucC5e/qBye8gy4vPrA==",
+  "dgSpecHash": "j6SxbjzsQuW4H7q0BGmaXUvJB0GYs66awRRltUyJbjscL9RTBxcudWyfR4n+JDf1OolbYUQwlE2s0Na1uy5YPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\indiv\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Denis\\source\\repos\\QuickFormatPaste\\QuickFormatPaste\\QuickFormatPaste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Denis\\.nuget\\packages\\nhotkey\\2.1.0\\nhotkey.2.1.0.nupkg.sha512",
+    "C:\\Users\\Denis\\.nuget\\packages\\nhotkey.wpf\\2.1.0\\nhotkey.wpf.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

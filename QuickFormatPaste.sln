@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickFormatPaste", "QuickFormatPaste\QuickFormatPaste.csproj", "{3D30F049-6774-4B01-A25E-FA9709FA027A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickFormatPaste", "QuickFormatPaste\QuickFormatPaste.csproj", "{3D30F049-6774-4B01-A25E-FA9709FA027A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B500EB6D-E34E-4FC4-B82D-3C52118ABBA8}"
+	ProjectSection(SolutionItems) = preProject
+		Точечный рисунок1.bmp = Точечный рисунок1.bmp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

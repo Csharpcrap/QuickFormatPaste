@@ -4,8 +4,78 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namesschemaspace:QuickFormatPaste"
-        Title="MainWindow" Height="450" Width="800" Closing="OnClose">
+        Title="MainWindow" Height="400" Width="500" Closing="OnClose"
+        Background= "Black" WindowStartupLocation="CenterScreen">
+
+
+    <!-- Это ебанина нужна просто для того что-бы снять стандартный hover с кнопки, ДАЙТЕ МНЕ CSS -->
+    <Window.Resources>
+        <Style x:Key="NormalButton" TargetType="Control" >
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" BorderThickness="0" BorderBrush="Black" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="0.8" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
     <Grid>
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Button Content="Меню" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Center" 
+                    Height="26" 
+                    Width="150" 
+                    Background="#4B0082" 
+                    Foreground="White" 
+                    MouseEnter="MenuMouseEnter"
+                    MouseLeave="MenuMouseLeave"
+                    Style="{StaticResource NormalButton}" 
+                    Cursor="Hand"
+                    Padding="0"/>
+           
+            <TextBox Grid.Column="1"  
+                     Background="#4B0082"
+                     Foreground="White"
+                     BorderThickness="0"
+                     Height="25"
+                     Padding="0">
+            </TextBox>
+            
+        </Grid>
+        
+
+        <Grid Grid.Row="1"></Grid>
+
     </Grid>
+
+
+
+
+
+
+
 </Window>

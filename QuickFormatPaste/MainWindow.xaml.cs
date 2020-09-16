@@ -1,7 +1,9 @@
 ﻿using NHotkey;
 using NHotkey.Wpf;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 
 namespace QuickFormatPaste
 {
@@ -30,6 +32,20 @@ namespace QuickFormatPaste
         {
             e.Cancel = true;
             Hide();
+        }
+
+        
+
+        private void MenuMouseEnter(object sender, MouseEventArgs e)
+        {
+            Button button = (Button)sender;
+            button.Background = new SolidColorBrush(Color.FromArgb(0xFF, 128, 0, 128));
+        }
+
+        private void MenuMouseLeave(object sender, MouseEventArgs e)
+        {
+            Button button = (Button)sender;
+            button.Background = new SolidColorBrush(Color.FromArgb(0xFF, 75, 0, 130));
         }
     }
 }
